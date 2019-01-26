@@ -22,5 +22,4 @@ if(len(str1)>len(str2)):
 for i in range(0,len(l1)):
     c=l2[i]-l1[i]
     sum=sum+c
-    print(c)
 print(sum)
