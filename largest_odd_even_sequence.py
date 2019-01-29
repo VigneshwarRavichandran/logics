@@ -13,7 +13,6 @@ for i in range(0,len(s)):
         count=count+1
         odd_count=1
         even_count=0
-        print(val," ",count)
     elif((val%2==0)and(odd_count==1)and(count>0)):
         count=count+1
         odd_count=0
@@ -25,4 +24,4 @@ for i in range(0,len(s)):
         odd_count=0
     if(i==len(s)-1):
         res.append(count)
-print(res)
+print(max(res))
